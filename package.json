@@ -1,0 +1,41 @@
+{
+  "name": "lite-connect-backend",
+  "version": "1.0.0",
+  "description": "A lite version of facebook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --exec ts-node src/index.ts"
+  },
+  "author": "Zakaria BAQASSE",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "esbuild-register": "^3.5.0",
+    "express": "^4.18.2",
+    "express-jwt": "^8.4.1",
+    "express-validator": "^7.0.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.4",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.4",
+    "@types/cors": "^2.8.14",
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.18",
+    "@types/express-validator": "^3.0.0",
+    "@types/jest": "^29.5.5",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^20.7.0",
+    "@types/supertest": "^2.0.14",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  }
+}
